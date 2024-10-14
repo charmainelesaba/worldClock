@@ -33,8 +33,9 @@ function showCity(event){
             <div class="city-date"> ${cityDate}</div>
         </div>
         <div class="city-time">${cityTime}</div>    
-    </div>`;
-    <a href="/">Home</a>
+    </div>
+    <a href="/">Home</a>`;
+    
 }
 
 
