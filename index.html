@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock</title>
 </head>
 <body>
@@ -22,33 +24,33 @@
             <option value="Pacific/Auckland">Auckland</option>
             <option value="">Current Location</option>
         </select>
-        <div class="city">
+        <div class="city" id="first-city">
             <div class="city-name-date">
                 <div class="name-of-city">
                 Gaborone
                 </div>
-                <div class="city-date">
-                    Monday, 14 October, 2024
+                <div class="city-date" id="first-city-date">
+                    
                 </div>
             </div>
-                <div class="city-time">
-                    07:26:33 
-                    <small>AM</small>
+                <div class="city-time" id="first-city-time">
+                    
+                    <small></small>
                 </div>    
 
         </div>
-        <div class="city">
+        <div class="city" id="second-city">
             <div class="city-time-date">
                 <div class="name-of-city">
-                    Brisbane
+                    Honolulu
                 </div>
-                <div class="city-date">
-                    Monday, 14 October, 2024
+                <div class="city-date" id="second-city-date">
+                    
                 </div>
             </div>
-                <div class="city-time">
-                    03:26:33 
-                    <small>PM</small>
+                <div class="city-time" id="second-city-time">
+                     
+                    <small></small>
                 </div>    
         </div> 
     </main>
