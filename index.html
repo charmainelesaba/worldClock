@@ -17,42 +17,45 @@
         <h1>World Clock</h1>
     </header>
     <main>
-        <select>
+        <select id="select-cities">
             <option value="">Choose a city</option>
             <option value="Europe/London">London</option>
-            <option value="America/Houston">Houston</option>
+            <option value="Pacific/Tahiti">Tahiti</option>
             <option value="Pacific/Auckland">Auckland</option>
             <option value="">Current Location</option>
         </select>
-        <div class="city" id="first-city">
-            <div class="city-name-date">
-                <div class="name-of-city">
-                Gaborone
+        <div id="cities-container">
+            <div class="city" id="first-city">
+                <div class="city-name-date">
+                    <div class="name-of-city">
+                    Gaborone
+                    </div>
+                    <div class="city-date" id="first-city-date">
+                        
+                    </div>
                 </div>
-                <div class="city-date" id="first-city-date">
-                    
-                </div>
+                    <div class="city-time" id="first-city-time">
+                        
+                        <small></small>
+                    </div>    
+    
             </div>
-                <div class="city-time" id="first-city-time">
-                    
-                    <small></small>
-                </div>    
-
+            <div class="city" id="second-city">
+                <div class="city-time-date">
+                    <div class="name-of-city">
+                        Honolulu
+                    </div>
+                    <div class="city-date" id="second-city-date">
+                        
+                    </div>
+                </div>
+                    <div class="city-time" id="second-city-time">
+                         
+                        <small></small>
+                    </div>    
+            </div> 
+    
         </div>
-        <div class="city" id="second-city">
-            <div class="city-time-date">
-                <div class="name-of-city">
-                    Honolulu
-                </div>
-                <div class="city-date" id="second-city-date">
-                    
-                </div>
-            </div>
-                <div class="city-time" id="second-city-time">
-                     
-                    <small></small>
-                </div>    
-        </div> 
     </main>
 </div>
     <footer>
