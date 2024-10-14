@@ -5,21 +5,28 @@ body{
 h1{
     text-align: center;
     font-size: 30px;
-}
-h2{
-    margin: 0;
-    font-size: 32px;
     color: rgb(14, 22, 39);
 }
 select{
     display: block;
     margin: 0 auto;
+    width: 100%;
     background-color: rgba(162, 188, 212, 0.89);
     padding: 15px 24px;
     border: none;
     border-radius: 8px;
     color: rgba(21, 34, 49, 0.651);
     font-size: 16px;
+}
+small{
+    font-size: 17px;
+    line-height: 32px;
+    vertical-align: middle;
+}
+footer{
+    text-align: center;
+    font-size: 14px;
+    color: rgba(21, 34, 49, 0.651);
 }
 .main-container{
     background-color: rgba(239, 243, 253, 0.726);
@@ -30,25 +37,23 @@ select{
     border-radius: 16px;
 }
 .city{
-    margin-top: 45px;
-}
-.city-time-date{
     display: flex;
     justify-content: space-between;
+    margin: 20px 0;
+    padding: 20px 0;
 }
-.first-city-time, .second-city-time{
+.name-of-city{
+    margin: 0;
+    font-size: 32px;
+    color: rgb(14, 22, 39);
+}
+.city-time{
     font-size: 34px;
     line-height: 30px;
     color: rgb(14, 22, 39);
-    margin-top: -9px;
+    margin-top: 30px;
 }
-.first-city-date, .second-city-date{
+.city-date{
     font-size: 13px;
-    color: rgba(21, 34, 49, 0.651);
-    margin-top: 0px;
-}
-footer{
-    text-align: center;
-    font-size: 14px;
     color: rgba(21, 34, 49, 0.651);
 }
